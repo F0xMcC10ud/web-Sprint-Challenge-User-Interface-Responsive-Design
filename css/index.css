@@ -73,9 +73,18 @@ section, footer{
     margin: 0 auto;
 }
 
-nav{
+header{
     display: flex;
     width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    justify-content: space-evenly;
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
     text-align: center;
     margin-top: 2%;
 }
@@ -89,18 +98,11 @@ p {
     font-size: 2rem;
 }
 
-header{
+.home-img img {
     height: 30vh;
+    width: 100%;
     display: flex;
-    background-image: url('/img/jumbo.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 2% 10%;
+    margin-top: 3%;
 }
 /*Top Section Styles*/
 
@@ -120,11 +122,11 @@ header{
 }
 
 .logo {
-   width: 35%; 
+   width: 40%; 
 }
 
 .logo img{
-    width: 40%;
+    width: 50%;
 }
 
 .links{
@@ -252,19 +254,13 @@ footer nav a {
     color: white;
 }
 /*About Page Styles*/
-.about {
+.about-img img {
     height: 30vh;
+    width: 100%;
     display: flex;
-    background-image: url('/img/jumbo-about.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 2% 10%;
+    margin-top: 3%;
 }
+   
 
 .top-about p{
     font-size: 2rem;
@@ -327,17 +323,12 @@ footer nav a {
     }
 
     header{
-        height: 15vh;
         display: flex;
-        background-image: url('/img/jumbo.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
+        width: 100%;
+        flex-flow: column;
         text-align: center;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin: 2% 10%;
+        margin-top: 2%;
+        justify-content: space-evenly;
     }
 
     .boxes{
@@ -382,6 +373,14 @@ footer nav a {
         padding: 5% 5%;
     }
 
+    .home-img img {
+        height: 20vh;
+        width: 95%;
+        display: flex;
+        margin-top: 3%;
+        padding-left: 5%;
+    }
+
     /* about styles @ 800px */
 
     .about-middle {
@@ -403,18 +402,12 @@ footer nav a {
         margin-left: 20%;
     }
 
-    .about {
-        height: 15vh;
+     .about-img img {
+        height: 20vh;
+        width: 95%;
         display: flex;
-        background-image: url('/img/jumbo-about.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        text-align: center;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin: 2% 10%;
+        margin-top: 3%;
+        padding-left: 5%;
     }
-    
+      
 }
